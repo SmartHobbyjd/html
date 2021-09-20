@@ -18,14 +18,14 @@
     function pageBackground() {
         var body = $('body');
         if (body.hasClass('image-background')) { // Image background
-            $.backstretch(["http://placehold.it/1920x1080.jpg"]); // Replace here Image Background
+            $.backstretch(["https://wallpaperaccess.com/full/662638.jpg"]); // Replace here Image Background
         } else if (body.hasClass('slideshow-background')) { // Slideshow background
             $.backstretch([
-                "http://placehold.it/1920x1080.jpg", // Add different images
-                "http://placehold.it/1920x1080.jpg",
-                "http://placehold.it/1920x1080.jpg",
-                "http://placehold.it/1920x1080.jpg",
-                "http://placehold.it/1920x1080.jpg"
+                "https://wallpaperaccess.com/full/662638.jpg", // Add different images
+                "https://wallpaperaccess.com/full/662638.jpg",
+                "https://wallpaperaccess.com/full/662638.jpg",
+                "https://wallpaperaccess.com/full/662638.jpg",
+                "https://wallpaperaccess.com/full/662638.jpg"
             ], {
                 duration: 3000,
                 fade: 800
@@ -81,7 +81,7 @@
                     }
                 }
             } else { // Default background on mobile devices
-                $.backstretch(["http://placehold.it/1920x1080.jpg"]);
+                $.backstretch(["https://wallpaperaccess.com/full/662638.jpg"]);
             }
         }
     }
